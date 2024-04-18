@@ -8,8 +8,8 @@ public class BoardController {
 	
 	@RequestMapping("/BoardList")
 	public String boardList() {
-//		return "board_list";
-		return "redirect:/BoardList2";
+		return "board_list";
+//		return "redirect:/BoardList2";
 	}
 	
 }
